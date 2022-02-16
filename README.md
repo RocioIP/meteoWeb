@@ -9,3 +9,7 @@ El proyecto está realizado con react y con el framework boostrap/react-boostrap
 ### `npm start`
 
 Para abrir la app en el [http://localhost:3000](http://localhost:3000)
+
+#### Imagen de la aplicación web
+
+https://github.com/RocioIP/meteoWeb/tree/master/public/portada.png
