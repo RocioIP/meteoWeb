@@ -12,4 +12,4 @@ Para abrir la app en el [http://localhost:3000](http://localhost:3000)
 
 #### Imagen de la aplicación web
 
-![Image text](https://github.com/RocioIP/meteoWeb/tree/master/public/portada.png)
+![Image text](https://github.com/RocioIP/meteoWeb/blob/master/public/portada.png)
