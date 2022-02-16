@@ -1,8 +1,8 @@
 # MeteoWeb
 
-Es una aplicación web para consultar el tiempo en las diferentes ciudades del mundo.
+Es una aplicación web para consultar el tiempo en las distintas ciudades del mundo.
 
-A travé de la API de http://openweathermap.org/ se adquieren los diferentes datos meteorológicos.
+A través de la API de http://openweathermap.org/ se adquieren los diferentes datos meteorológicos.
 
 El proyecto está realizado con React y con el framework Boostrap/react-boostrap para dar estilo.
 
