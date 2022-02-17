@@ -9,21 +9,19 @@ export default function WeatherInfo(props) {
     <>
       <style type='text/css'>
         {`
-    .btn-flat {
-      background-color: #060f33;
-      color: white;
-      
-    }
-    .btn-flat:hover {
-        color: white;  
-       background-color: rgba(6,15,51,0.8); 
-      
-    }
-    .btn-xxl {
-      padding: 10px ;
-      font-size: 20px;
-    }
-    `}
+          .btn-flat {
+          background-color: #060f33;
+          color: white;
+          }
+          .btn-flat:hover {
+          color: white;
+          background-color: rgba(6,15,51,0.8);
+          }
+          .btn-xxl {
+          padding: 10px ;
+          font-size: 20px;
+          }
+        `}
       </style>
       <Container>
         <Row>

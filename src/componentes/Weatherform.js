@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../App.css';
+import Header from './Header';
 import { Container, Form, Row, Col, Button, FormSelect } from 'react-bootstrap';
 import { get } from '../api/api';
 import { apiKey } from '../api/keys';
@@ -53,13 +54,11 @@ export default function WeatherForm(props) {
     e.preventDefault();
     const valueCity = e.target.value;
     setValueCityForm(valueCity);
-    console.log(valueCity);
   }
   function handelInputChangeCountry(e) {
     e.preventDefault();
     const valueCountry = e.target.value;
     setValueCountryForm(valueCountry);
-    console.log(valueCountry);
   }
 
   return (
@@ -73,33 +72,7 @@ export default function WeatherForm(props) {
       >
         <Row>
           <Col>
-            <Row
-              style={{
-                paddingTop: '20px',
-                paddingLeft: '40px',
-                paddingBottom: '20px',
-              }}
-            >
-              <Col sm={5}>
-                <img
-                  width='160px'
-                  style={{ borderRadius: '20%' }}
-                  src='/logo.png'
-                  alt='Icono del tiempo'
-                />
-              </Col>
-              <Col>
-                <h1
-                  style={{
-                    paddingTop: '40px',
-                    fontFamily: 'fantasy',
-                    color: '#ff9300',
-                  }}
-                >
-                  MeteoWeb
-                </h1>
-              </Col>
-            </Row>
+            <Header />
           </Col>
           <Col>
             <Form>
