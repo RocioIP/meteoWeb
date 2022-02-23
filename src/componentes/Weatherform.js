@@ -42,7 +42,6 @@ export default function WeatherForm(props) {
 
   const handleChange = () => {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${valueCityForm},${valueCountryForm}&APPID=${apiKey}&units=metric&lang=es`;
-    //const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
     const reqDatos = async () => {
       get(url, datosWeather);
     };

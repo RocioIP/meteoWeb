@@ -197,44 +197,6 @@ export default function WeatherInfo(props) {
                   </Card>
                 </Col>
               </Row>
-              {/* <Table
-                striped
-                bordered
-                hover
-                variant='dark'
-                responsive='sm'
-                style={{
-                  marginTop: '20px',
-                  fontFamily: 'fantasy',
-                  fontSize: '20px',
-                }}
-              >
-                <thead>
-                  <tr>
-                    <th>Humedad</th>
-                    <th>Viento</th>
-                    <th>Tº Min</th>
-                    <th>Tº Max</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>{props.humidity}</td>
-
-                    <td>{props.wind_speed}</td>
-
-                    <td>
-                      {Math.round(props.temperature_min)}
-                      °C
-                    </td>
-
-                    <td>
-                      {Math.round(props.temperature_max)}
-                      °C
-                    </td>
-                  </tr>
-                </tbody>
-              </Table> */}
             </Collapse>
           </Col>
         </Row>
